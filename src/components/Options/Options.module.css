@@ -1,0 +1,6 @@
+.button {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
