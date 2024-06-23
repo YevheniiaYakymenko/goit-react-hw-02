@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Description from "../Descripion/Descripion";
 import Options from "../Options/Options";
 import Feedback from "../Feedback/Feedback";
-import Notification from "../../Notification/Notification";
+import Notification from "../Notification/Notification";
 
 export default function App() {
   const initialFeedback = JSON.parse(localStorage.getItem("feedback")) || {
